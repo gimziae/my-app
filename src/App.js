@@ -11,31 +11,41 @@ import CustomList from "./components/CustomList";
 import CustomObj from "./components/CustomObj";
 import ChangeObj from "./components/ChangeObj";
 import Comparing from "./components/Comparing";
+import TestRef from "./components/TestRef";
+import ChangeFocus from "./components/ChangeFocus";
+import RefDOM from "./components/RefDOM";
+import Calc from "./components/Calc";
+import CalcAnswer from "./components/CalcAnswer";
 
 function App() {
-	const nameArr = ["ava", "beyonce", "crystal", "didi"];
-	const pororoObjArr = [
-		{
-			name: "뽀로로",
-			age: 5,
-			nickName: "사고뭉치",
-		},
-		{
-			name: "루피",
-			age: 4,
-			nickName: "공주님",
-		},
-		{
-			name: "크롱",
-			age: 8,
-			nickName: "장난꾸러기",
-		},
-	];
+	// const nameArr = ["ava", "beyonce", "crystal", "didi"];
+	// const pororoObjArr = [
+	// 	{
+	// 		name: "뽀로로",
+	// 		age: 5,
+	// 		nickName: "사고뭉치",
+	// 	},
+	// 	{
+	// 		name: "루피",
+	// 		age: 4,
+	// 		nickName: "공주님",
+	// 	},
+	// 	{
+	// 		name: "크롱",
+	// 		age: 8,
+	// 		nickName: "장난꾸러기",
+	// 	},
+	// ];
 
 	return (
 		<div className="App">
+			<CalcAnswer />
+			<Calc />
+			{/* <RefDOM />
+			<ChangeFocus />
+			<TestRef />
 			<Comparing />
-			<ChangeObj objArr={pororoObjArr} />
+			<ChangeObj objArr={pororoObjArr} /> */}
 			{/* <MainHeader text="Hello, props world!!" /> */}
 			{/* <MainHeader
 				text="Go, naver"
