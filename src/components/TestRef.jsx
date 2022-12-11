@@ -10,13 +10,13 @@ export default function TestRef() {
 	};
 
 	return (
-		<div>
+		<>
 			<h1>{text}</h1> {/* 초기 스테이트 값 지정 */}
 			<input
 				ref={inputValue}
 				onChange={(e) => {
 					onChangeText();
 				}}></input>
-		</div>
+		</>
 	);
 }

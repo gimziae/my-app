@@ -20,12 +20,12 @@ function ChangeObj(props) {
 	};
 
 	return (
-		<div>
+		<>
 			<h1>이름:{profile.name}</h1>
 			<h1>나이:{profile.age}</h1>
 			<h1>별명:{profile.nickName}</h1>
 			<button onClick={onClickChange}>프로필 변경하기</button>
-		</div>
+		</>
 	);
 }
 

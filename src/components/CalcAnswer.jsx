@@ -35,7 +35,7 @@ export default function CalcAnswer() {
 	};
 
 	return (
-		<div>
+		<>
 			<h1>
 				{firstRandomNum}
 				{arithmeticArr[arithmetic]}
@@ -43,6 +43,6 @@ export default function CalcAnswer() {
 			</h1>
 			<input type="text" ref={inputVal} />
 			<button onClick={submitAnswer}>정답 제출!</button>
-		</div>
+		</>
 	);
 }

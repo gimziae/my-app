@@ -2,9 +2,9 @@ import img from "../img/component.jpeg";
 
 function Img() {
 	return (
-		<div>
+		<>
 			<img src={img} style={{ width: 300 }} />
-		</div>
+		</>
 	);
 }
 

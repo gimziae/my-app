@@ -30,7 +30,7 @@ function Comparing() {
 	// > 그래서
 	// variable 은 리렌더링이 되면 초기값으로 다시 설정된다.
 	return (
-		<div>
+		<>
 			<h1>State:{countState}</h1>
 			<h1>Ref:{countRef.current}</h1>
 			<h1>variable:{countVar}</h1>
@@ -38,7 +38,7 @@ function Comparing() {
 			<button onClick={countUpRef}>Ref +</button>
 			<button onClick={countUpVar}>Var +</button>
 			<button onClick={reRender}>렌더링!!</button>
-		</div>
+		</>
 	);
 }
 

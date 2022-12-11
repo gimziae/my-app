@@ -12,7 +12,7 @@ export default function ChangeFocus() {
 	};
 
 	return (
-		<div>
+		<>
 			<br />
 			<input ref={input1} />
 			<input ref={input2} />
@@ -20,6 +20,6 @@ export default function ChangeFocus() {
 			<br />
 			<button onClick={changeFocusOne}>1</button>
 			<button onClick={changeFocusTwo}>2</button>
-		</div>
+		</>
 	);
 }

@@ -21,13 +21,13 @@ class ClassState extends Component {
 			this.setState({ message: "안녕히 가세요" });
 		};
 		return (
-			<div>
+			<>
 				<br />
 				<hr />
 				<button onClick={onClickEnter}>입장</button>
 				<button onClick={onClickLeave}>퇴장</button>
 				<h1>{message}</h1>
-			</div>
+			</>
 		);
 	}
 }

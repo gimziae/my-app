@@ -16,6 +16,7 @@ import ChangeFocus from "./components/ChangeFocus";
 import RefDOM from "./components/RefDOM";
 import Calc from "./components/Calc";
 import CalcAnswer from "./components/CalcAnswer";
+import ReactFragment from "./components/ReactFragment";
 
 function App() {
 	// const nameArr = ["ava", "beyonce", "crystal", "didi"];
@@ -39,8 +40,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<CalcAnswer />
-			<Calc />
+			<ReactFragment />
+			{/* <CalcAnswer />
+			<Calc /> */}
 			{/* <RefDOM />
 			<ChangeFocus />
 			<TestRef />

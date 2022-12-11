@@ -1,6 +1,6 @@
 function BtnToNaver() {
 	return (
-		<div>
+		<>
 			<hr />
 
 			<a
@@ -9,7 +9,7 @@ function BtnToNaver() {
 				rel="noopener noreferrer">
 				naver로 이동
 			</a>
-		</div>
+		</>
 	);
 }
 

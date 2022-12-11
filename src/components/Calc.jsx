@@ -58,7 +58,7 @@ export default function Calc() {
 	};
 
 	return (
-		<div>
+		<>
 			<span>{first}</span>
 			<span>{randomOp}</span>
 			<span>{second}</span>
@@ -66,6 +66,6 @@ export default function Calc() {
 			<br />
 			<input ref={inputVal} />
 			<button onClick={submit}>정답 제출!</button>
-		</div>
+		</>
 	);
 }

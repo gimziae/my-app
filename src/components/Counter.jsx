@@ -2,7 +2,7 @@ import { useState } from "react";
 function Counter() {
 	let [state, setState] = useState(0);
 	return (
-		<div>
+		<>
 			<hr />
 			{state}
 			<br />
@@ -18,7 +18,7 @@ function Counter() {
 				}}>
 				+1
 			</button>
-		</div>
+		</>
 	);
 }
 

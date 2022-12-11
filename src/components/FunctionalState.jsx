@@ -10,13 +10,13 @@ function FunctionalState() {
 		setMessage("안녕히 가세요!");
 	};
 	return (
-		<div>
+		<>
 			<br />
 			<hr />
 			<h1>{message}</h1>
 			<button onClick={onClickEnter}>입장</button>
 			<button onClick={onClickLeave}>퇴장</button>
-		</div>
+		</>
 	);
 }
 
