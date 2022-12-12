@@ -26,6 +26,7 @@ import TestUseEffect from "./components/TestUseEffect";
 import Timer from "./components/Timer";
 import PracticeTimer from "./components/PracticeTimer";
 import UseEffectFetch from "./components/UseEffectFetch";
+import UsingUseMemo from "./components/UsingUseMemo";
 
 function App() {
 	// const nameArr = ["ava", "beyonce", "crystal", "didi"];
@@ -52,21 +53,22 @@ function App() {
 	// const onChange = () => {
 	// 	condition === "1번" ? setCondition("2번") : setCondition("1번");
 	// };
-	const showBtn = useRef();
-	const [show, setShow] = useState(false);
+	// const showBtn = useRef();
+	// const [show, setShow] = useState(false);
 
-	// 최초 실행 시 포커스
-	useEffect(() => {
-		showBtn.current.focus();
-	}, []);
+	// // 최초 실행 시 포커스
+	// useEffect(() => {
+	// 	showBtn.current.focus();
+	// }, []);
 
 	return (
 		<div className="App">
-			<UseEffectFetch />
-			{show && <PracticeTimer />}
+			<UsingUseMemo />
+			{/* <UseEffectFetch /> */}
+			{/* {show && <PracticeTimer />}
 			<button onClick={() => setShow(!show)} ref={showBtn}>
 				{show ? "숨기기" : "보이기"}
-			</button>
+			</button> */}
 			{/* = 위와 같음 
 			{!show ? (
 				<button onClick={() => setShow(!show)} ref={showBtn}>
