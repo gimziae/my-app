@@ -1,0 +1,12 @@
+.component-root {
+	background: dodgerblue;
+	padding: 2rem 0;
+}
+
+.component-root h1 {
+	color: rebeccapurple;
+}
+.component-root span {
+	background: white;
+	font-weight: 700;
+}
