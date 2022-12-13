@@ -32,6 +32,7 @@ import TestCssFile from "./components/TestCssFile";
 import TestStyled from "./components/TestStyled";
 import logo from "./img/cake.jpeg";
 import styled, { keyframes } from "styled-components";
+import Image from "./components/Image";
 
 const AppLogoSpin = keyframes`
 from {
@@ -68,6 +69,7 @@ const MyA = styled.a`
 function App() {
 	return (
 		<RootDiv>
+			<Image />
 			<AppHeader>
 				<AppLogo src={logo} alt="app" />
 				<p>
